@@ -1,6 +1,6 @@
-[![Latest Stable Version](http://poser.pugx.org/jhdxr/laravel-prune-db-cache/v)](https://packagist.org/packages/jhdxr/laravel-prune-db-cache) 
-[![License](http://poser.pugx.org/jhdxr/laravel-prune-db-cache/license)](https://packagist.org/packages/jhdxr/laravel-prune-db-cache) 
-[![PHP Version Require](http://poser.pugx.org/jhdxr/laravel-prune-db-cache/require/php)](https://packagist.org/packages/jhdxr/laravel-prune-db-cache)
+[![Latest Stable Version](http://poser.pugx.org/jhdxr/laravel-prune-db-cache/v/stable.svg)](https://packagist.org/packages/jhdxr/laravel-prune-db-cache)
+[![License](http://poser.pugx.org/jhdxr/laravel-prune-db-cache/license.svg)](https://packagist.org/packages/jhdxr/laravel-prune-db-cache) 
+
 
 # Prune Expired Cache For Laravel DB Driver
 
