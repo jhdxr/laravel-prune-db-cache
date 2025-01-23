@@ -1,3 +1,7 @@
+[![Latest Stable Version](http://poser.pugx.org/jhdxr/laravel-prune-db-cache/v)](https://packagist.org/packages/jhdxr/laravel-prune-db-cache) 
+[![License](http://poser.pugx.org/jhdxr/laravel-prune-db-cache/license)](https://packagist.org/packages/jhdxr/laravel-prune-db-cache) 
+[![PHP Version Require](http://poser.pugx.org/jhdxr/laravel-prune-db-cache/require/php)](https://packagist.org/packages/jhdxr/laravel-prune-db-cache)
+
 # Prune Expired Cache For Laravel DB Driver
 
 The built-in `database` cache driver in Laravel does not have a built-in way to delete expired cache entries automatically, nor a quick way to clear the expired items only. This package helps you to handle this issue.
