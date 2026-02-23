@@ -39,6 +39,10 @@ class PruneDbCache extends Command
     protected function prune($table, $column_pk = 'key', $column_expires_at = 'expiration'): void
     {
         $this->info("Pruning cache table $table");
+        if (empty($table)) {
+            $this->warn('Invalid cache table name, skipping.');
+            return;
+        }
         $batch_size = 100;
         //use cursor to iterate the whole table, and remove those expired
         //avoid use DB comparison because laravel doesn't have index on expiration column by default
